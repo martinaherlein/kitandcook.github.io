@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Kit & Cook</title>
+  <meta name="description" content="Cajas con ingredientes frescos ya porcionados y recetas paso a paso.">
+  <meta name="author" content="Kit & Cook">
+  <link rel="icon" href="img/logokitandcook.jpg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@600;800&family=Source+Sans+3:wght@400;600&display=swap" rel="stylesheet">
+   <style>
+  body {
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 17px;
+    line-height: 1.5;
+    color: #1B2B22;
+  }
+
+  h1, h2, h3 {
+    margin: 0 0 10px;
+  }
+
+  img {
+    max-width: 100%;
+  }
+
+  a {
+    color: #1E5B3A;
+  }
+
+  .wrap {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 40px 20px;
+  }
+
+  header {
+    background: #1E5B3A;
+    color: white;
+  }
+
+  .top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 12px 20px;
+  }
+
+  .logo {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+  }
+
+  .hero {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 40px 20px;
+  }
+
+  .hero h1 {
+    font-size: 40px;
+  }
+
+  .hero img {
+    border-radius: 10px;
+  }
+
+  .btn {
+    display: inline-block;
+    background: #F5922B;
+    color: #1B2B22;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+
+  .btn:hover {
+    background: #C9690A;
+    color: white;
+  }
+
+  .beneficios {
+    background: #E6F0E4;
+  }
+
+  .grid3 {
+    display: flex;
+    gap: 24px;
+  }
+
+  .grid3 h3 {
+    color: #1E5B3A;
+  }
+
+  .pasos ol {
+    display: flex;
+    gap: 24px;
+    list-style: none;
+    padding: 0;
+  }
+
+  .pasos li {
+    border-left: 4px solid #F5922B;
+    padding-left: 15px;
+  }
+
+  .accion {
+    background: #1E5B3A;
+    color: white;
+  }
+
+  form {
+    background: white;
+    color: #1B2B22;
+    padding: 24px;
+    border-radius: 10px;
+  }
+
+  label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 4px;
+  }
+
+  input[type=text],
+  input[type=email] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #999;
+    border-radius: 6px;
+    margin-bottom: 15px;
+  }
+
+  .legal {
+    font-size: 14px;
+    color: #5B6B62;
+  }
+
+  footer a {
+    color: #cfe2d4;
+  }
+
+  #terminos {
+    background: #cfe2d4;
+    padding: 30px 0;
+    font-size: 15px;
+  }
+</style>
+</head>
+<body>
+<header>
+  <div class="top">
+    <a class="logo" href="Kit & Cook">Kit & Cook</a>
+    <img src="img/logokitandcook.jpg" width=100px>
+    <a class="mini" href="registro">Quiero mi cupón</a>
+</div>
+  <div class="hero">
+    <div>
+      <h1>Cociná rico, sin pensar qué comprar</h1>
+      <p>Te llevamos los ingredientes frescos ya porcionados y la receta lista para seguir. Anotate y conseguí 15% off en tu primer kit.</p>
+      <p><a class="btn" href="#registro">Quiero mi 15% off</a></p>
+    </div>
+      <img src="img/caja.jpg" alt="Caja de Kit & Cook abierta sobre una mesada con verduras frescas, ingredientes porcionados y una ficha de receta" width=400px>
+    </div>
+  </div>
+</header>
+<main>
+<section class="beneficios" id="beneficios">
+  <div class="wrap">
+    <h2>Comer casero, sin la parte difícil</h2>
+    <div class="grid3">
+      <div>
+        <h3>Ahorrás tiempo</h3>
+        <p>No planificás menús ni hacés la compra: la caja llega con todo lo que necesitás.</p>
+      </div>
+        <h3>Ingredientes frescos y justos</h3>
+        <p>Vienen porcionados, así que cocinás lo necesario y desperdiciás menos.</p>
+      </div>
+        <h3>Receta fácil de seguir</h3>
+        <p>Cada kit trae una ficha y un video por QR para cocinar paso a paso.</p>
+  </div>
+</section>
+<section class="pasos" id="como-funciona">
+  <div class="wrap">
+    <h2>Cómo funciona</h2>
+    <ol>
+      <li><h3>Elegí tu kit</h3><p>Seleccioná la receta que más te guste.</p></li>
+      <li><h3>Recibilo en tu casa</h3><p>Te llega con ingredientes frescos y porcionados.</p></li>
+      <li><h3>Escaneá y cociná</h3><p>Seguí la ficha o mirá el video con el código QR.</p></li>
+    </ol>
+  </div>
+</section>
+  <div class="wrap">
+      </figure>
+    </div>
+</section>
+<section class="accion" id="registro">
+  <div class="wrap">
+    <h2>Conseguí tu 15% off en el primer kit</h2>
+    <p>Dejanos tu nombre y tu mail y te enviamos el cupón <strong>KITCOOK15</strong>. El kit sale $20.000; con el cupón, $17.000.</p>
+    <!-- REEMPLAZAR action por la URL del formulario de suscripción de Brevo (o pegar acá el formulario incrustado) -->
+    <form action="URL_DEL_FORMULARIO_DE_BREVO" method="post">
+      <label for="nombre">Nombre y apellido</label>
+      <input type="text" id="nombre" name="NOMBRE" autocomplete="name" required>
+      <label for="email">Correo electrónico</label>
+      <input type="email" id="email" name="EMAIL" autocomplete="email" required>
+      <label class="check" for="acepto">
+        <input type="checkbox" id="acepto" name="acepto" required>
+        <span>Acepto recibir el cupón y novedades de Kit & Cook por mail.</a>.</span>
+      </label>
+      <button class="btn" type="submit">Quiero mi 15% off</button>
+      <p class="legal">Usaremos tus datos solo para enviarte el cupón y novedades de Kit & Cook. Podés darte de baja cuando quieras desde cualquier mail. Tus datos están protegidos por la Ley 25.326 de Protección de Datos Personales.</p>
+    </form>
+  </div>
+</section>
+<section class="red" id="red-de-seguridad">
+  <div class="wrap">
+    <h2>¿Todavía no estás seguro?</h2>
+    <p>Mirá cómo funciona Kit & Cook antes de anotarte.</p>
+    <p><a class="btn btn-sec" href="como-funciona">Ver cómo funciona</a></p>
+  </div>
+</section>
+</main>
+<footer>
+  <div class="wrap">
+  </div>
+</footer>
+<section id="terminos">
+  <div class="wrap">
+    <h2>Términos y condiciones</h2>
+    <p><strong>Cupón KITCOOK15:</strong> 15% de descuento en el primer kit. Un solo uso por persona, válido hasta el 30 de noviembre de 2026. No acumulable con otras promociones.</p>
+    <p><strong>Proyecto académico:</strong> Kit & Cook es un proyecto de carácter académico. La oferta y los testimonios se publican con fines didácticos.</p>
+    <p><strong>Baja:</strong> podés darte de baja en cualquier momento con el enlace que figura al pie de cada mail.</p>
+  </div>
+</section>
+</body>
+</html>
+ 
